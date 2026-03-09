@@ -4,10 +4,22 @@ function cambiarTexto() {
 
 }
 
+let oscuro = false
 function modoOscuro() {
+    if (oscuro){
+        document.getElementById("tema").innerHTML = "Tema Oscuro"
+        document.body.style.backgroundColor = "white"
+        document.body.style.color = "black"
 
-    document.body.style.backgroundColor = "black"
-    document.body.style.color = "white"
+        oscuro = false
+    }
+    else{
+        document.getElementById("tema").innerHTML = "Tema Claro"
+        document.body.style.backgroundColor = "black"
+        document.body.style.color = "white"
+        oscuro = true   
+    }
+    
 
 }
 
