@@ -1,6 +1,6 @@
 function cambiarTexto() {
 
-    document.getElementByID("descripcion").innerHTML = "Ahora estás viendo nuestras ofertas!"
+    document.getElementById("descripcion").innerHTML = "Ahora estás viendo nuestras ofertas!"
 
 }
 
