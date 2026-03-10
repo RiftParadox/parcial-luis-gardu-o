@@ -29,6 +29,7 @@ function agregarCarrito() {
 
     carrito++
     console.log("Productos en carrito: " + carrito)
+    document.getElementById("carrito").innerHTML = "Productos en el carrito: " + carrito 
 
 }
 
